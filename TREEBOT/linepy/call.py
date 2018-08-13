@@ -6,7 +6,7 @@ def loggedIn(func):
         if args[0].isLogin:
             return func(*args, **kwargs)
         else:
-            args[0].callback.other('SELFBOT PY.3 BY.SAI')
+            args[0].callback.other('TREEBOT')
     return checkLogin
     
 class Call(object):
